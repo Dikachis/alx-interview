@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-""" pascal triangle 
+""" pascal triangle
 """
+
 
 def pascal_triangle(n):
     """ returns pascal triangle
     """
     if n <= 0:
         return []
-    
+
     pasTran = []
 
     for i in range(n):
